@@ -35,16 +35,15 @@ Which variables are significant in predicting the demand for shared bikes. How w
 - Lasso is the chosen model for the final model, because it creates a simple model with the top features.
 
 - Significant variables to predict the demand for shared bikes
-
-* holiday
-* temp
-* hum
-* windspeed
-* Season
-* months(January, July, September, November, December)
-* Year (2019)
-* Sunday
-* weathersit( Light Snow, Mist + Cloudy)
+  * holiday
+  * temp
+  * hum
+  * windspeed
+  * Season
+  * months(January, July, September, November, December)
+  * Year (2019)
+  * Sunday
+  * weathersit( Light Snow, Mist + Cloudy)
 
 
 
