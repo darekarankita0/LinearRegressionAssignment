@@ -20,14 +20,31 @@ Which variables are significant in predicting the demand for shared bikes. How w
 
 
 ## Conclusions
-1. The temperature or weather conditions form a weightage nearly 66% (temp+Summer+Winter+clear_partlycloudy)as the cause of more demand, here it is not clear as to why the weather condition "Spring" has a negative correlation with the target variable
+- The R-squared value of the train set is 82.71% whereas the test set has a value of 81.13% which suggests that our model broadly explains the variance quite accurately on the test set and thus we can conclude that it is a good model.
 
-2. The variable "yr" has a weightage of nearly 24% for increase in bike demand
-3. Key variables influencing the model:
-   - Temp: Higher temperatures generally increase bike demand.
-   - Humidity: Higher humidity negatively impacts bike rentals.
-   - Windspeed: Extreme windspeed conditions reduce bike usage.
-   - Season & Weather Conditions: Demand fluctuates based on seasonal variations and weather conditions.
+- Our developed model's mean squared error is almost 0 on both the training and testing datasets which suggests that the variance is accurately predicted on the test set. The p-values and VIF were used to select the significant variables. RFE was also conducted for automated selection of variables.
+
+- The major steps included in the python notebook are data interpretation, data visualisation, data pre-processing, model training, feature selection, residual analysis, model evaluation on the test set.
+
+- Concepts such as EDA, p-value, VIF, RFE were used and model building was done using statsmodels library
+
+- GrLivArea is by far the most important predictor
+
+- The top variables are intuitive.
+
+- Lasso is the chosen model for the final model, because it creates a simple model with the top features.
+
+- Significant variables to predict the demand for shared bikes
+
+* holiday
+* temp
+* hum
+* windspeed
+* Season
+* months(January, July, September, November, December)
+* Year (2019)
+* Sunday
+* weathersit( Light Snow, Mist + Cloudy)
 
 
 
