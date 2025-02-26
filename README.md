@@ -24,13 +24,10 @@ Which variables are significant in predicting the demand for shared bikes. How w
 
 2. The variable "yr" has a weightage of nearly 24% for increase in bike demand
 3. Key variables influencing the model:
-   Temp: Higher temperatures generally increase bike demand.
-
-   Humidity: Higher humidity negatively impacts bike rentals.
-
-   Windspeed: Extreme windspeed conditions reduce bike usage.
-
-   Season & Weather Conditions: Demand fluctuates based on seasonal variations and weather conditions.
+   - Temp: Higher temperatures generally increase bike demand.
+   - Humidity: Higher humidity negatively impacts bike rentals.
+   - Windspeed: Extreme windspeed conditions reduce bike usage.
+   - Season & Weather Conditions: Demand fluctuates based on seasonal variations and weather conditions.
 
 
 
